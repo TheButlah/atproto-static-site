@@ -4,15 +4,15 @@
     "https://w3id.org/security/multikey/v1",
     "https://w3id.org/security/suites/secp256k1-2019/v1"
   ],
-  "id": "did:web:did.atproto.thebutlah.com",
+  "id": "did:web:did-atproto.thebutlah.com",
   "alsoKnownAs": [
     "at://thebutlah.com"
   ],
   "verificationMethod": [
     {
-      "id": "did:web:did.atproto.thebutlah.com#atproto",
+      "id": "did:web:did-atproto.thebutlah.com#atproto",
       "type": "Multikey",
-      "controller": "did:web:did.atproto.thebutlah.com",
+      "controller": "did:web:did-atproto.thebutlah.com",
       "publicKeyMultibase": "zQ3shZW6arLakH5EEWnLBpL2T399NgJb6r6XR6J64MvV9ePat"
     }
   ],
