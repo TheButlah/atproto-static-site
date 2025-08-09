@@ -1,8 +1,7 @@
 {
   "@context": [
     "https://www.w3.org/ns/did/v1",
-    "https://w3id.org/security/multikey/v1",
-    "https://w3id.org/security/suites/secp256k1-2019/v1"
+    "https://w3id.org/security/multikey/v1"
   ],
   "id": "did:web:did-atproto.thebutlah.com",
   "alsoKnownAs": [
@@ -13,14 +12,14 @@
       "id": "did:web:did-atproto.thebutlah.com#atproto",
       "type": "Multikey",
       "controller": "did:web:did-atproto.thebutlah.com",
-      "publicKeyMultibase": "zQ3shZW6arLakH5EEWnLBpL2T399NgJb6r6XR6J64MvV9ePat"
+      "publicKeyMultibase": "zQ3shTP1VJxBvKVzLygH3pgHtrcAmzcqXyjtHYeo9Tjo1RSot"
     }
   ],
   "service": [
     {
       "id": "#atproto_pds",
       "type": "AtprotoPersonalDataServer",
-      "serviceEndpoint": "https://blusher.us-east.host.bsky.network"
+      "serviceEndpoint": "https://bs.oomfie.space"
     }
   ]
 }
